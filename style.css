@@ -1,10 +1,16 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background: #d8d5d5;
+}
+
 .container {
     width: 375px;
-    height: 100vh;
+    min-height: 100vh;
     margin: auto;
+    background: #FFFFFF;
 }
 
 .header-body-box {
@@ -47,6 +53,7 @@ h1 {
     display: flex;
     margin-top: 32px;
     transition: transform 0.3s ease;
+    text-decoration: none;
 }
 
 .header-button-box:active {
